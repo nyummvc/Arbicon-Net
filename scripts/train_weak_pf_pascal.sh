@@ -1,0 +1,2 @@
+cd ..
+train_weak.py --train-gd True --train-fr True --train-fe True --batch-size 16 --feature-extraction-cnn resnet101 --model-aff trained_models/aff.pth.tar --model-tps trained_models/def.pth.tar --training-dataset pf-pascal --dataset-csv-path training_data/pf-pascal-flip/ --dataset-image-path datasets/proposal-flow-pascal/ --num-epochs 30 --lr 5e-8 --result-model-fn train_weak
