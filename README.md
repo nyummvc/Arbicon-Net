@@ -18,7 +18,7 @@ To train Arbicon-Net in synthetic dataset please run:
 cd scripts/
 bash train_strong_random_tps_pascal.sh
 ```
-To fine-tune the two-stage network in PF-PASCAl training set please run:
+To fine-tune the two-stage network in PF-PASCAL training set please run:
 ```
 cd scripts/
 bash train_weak_pf_pascal.sh
@@ -33,22 +33,22 @@ Trained weight could be found and downloaded [here](https://drive.google.com/ope
 
 ## Main Results ##
 PF-PASCAL:
-Method | PCK
-- | :-: 
-WeakAlign | 75.8 |
-Arbicon-Net | 77.3 |
+|Method | PCK |
+|- | :-: |
+|WeakAlign | 75.8 |
+|Arbicon-Net | 77.3 |
 
 PF-Willow:
-Method | PCK
-- | :-: 
-WeakAlign | 71.2 |
-Arbicon-Net | 72.2 |
+|Method | PCK |
+|- | :-: |
+|WeakAlign | 71.2 |
+|Arbicon-Net | 72.2 |
 
 TSS:
-Method | FG3D | JODS | PASC
-- | :-: | :-: | :-:
-WeakAlign | 90.3 | 76.4 | 56.5
-Arbicon-Net | 92.5 | 76.5 | 58.5
+|Method | FG3D | JODS | PASC |
+|- | :-: | :-: | :-: |
+|WeakAlign | 90.3 | 76.4 | 56.5 |
+|Arbicon-Net | 92.5 | 76.5 | 58.5 |
 
 ## Acknowledgement ##
  - [[weakalign](https://github.com/ignacio-rocco/weakalign)], [[NC-Net](https://github.com/ignacio-rocco/ncnet)] by Ignacio Rocco et al.
